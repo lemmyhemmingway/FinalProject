@@ -1,0 +1,17 @@
+/home/yasin/RiderProjects/FinalProject/Business/bin/Debug/net6.0/Business.deps.json
+/home/yasin/RiderProjects/FinalProject/Business/bin/Debug/net6.0/Business.dll
+/home/yasin/RiderProjects/FinalProject/Business/bin/Debug/net6.0/ref/Business.dll
+/home/yasin/RiderProjects/FinalProject/Business/bin/Debug/net6.0/Business.pdb
+/home/yasin/RiderProjects/FinalProject/Business/bin/Debug/net6.0/DataAccess.dll
+/home/yasin/RiderProjects/FinalProject/Business/bin/Debug/net6.0/Entities.dll
+/home/yasin/RiderProjects/FinalProject/Business/bin/Debug/net6.0/DataAccess.pdb
+/home/yasin/RiderProjects/FinalProject/Business/bin/Debug/net6.0/Entities.pdb
+/home/yasin/RiderProjects/FinalProject/Business/obj/Debug/net6.0/Business.csproj.AssemblyReference.cache
+/home/yasin/RiderProjects/FinalProject/Business/obj/Debug/net6.0/Business.GeneratedMSBuildEditorConfig.editorconfig
+/home/yasin/RiderProjects/FinalProject/Business/obj/Debug/net6.0/Business.AssemblyInfoInputs.cache
+/home/yasin/RiderProjects/FinalProject/Business/obj/Debug/net6.0/Business.AssemblyInfo.cs
+/home/yasin/RiderProjects/FinalProject/Business/obj/Debug/net6.0/Business.csproj.CoreCompileInputs.cache
+/home/yasin/RiderProjects/FinalProject/Business/obj/Debug/net6.0/Business.csproj.CopyComplete
+/home/yasin/RiderProjects/FinalProject/Business/obj/Debug/net6.0/Business.dll
+/home/yasin/RiderProjects/FinalProject/Business/obj/Debug/net6.0/ref/Business.dll
+/home/yasin/RiderProjects/FinalProject/Business/obj/Debug/net6.0/Business.pdb

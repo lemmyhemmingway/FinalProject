@@ -1,0 +1,15 @@
+/home/yasin/RiderProjects/FinalProject/DataAccess/bin/Debug/net6.0/DataAccess.deps.json
+/home/yasin/RiderProjects/FinalProject/DataAccess/bin/Debug/net6.0/DataAccess.dll
+/home/yasin/RiderProjects/FinalProject/DataAccess/bin/Debug/net6.0/ref/DataAccess.dll
+/home/yasin/RiderProjects/FinalProject/DataAccess/bin/Debug/net6.0/DataAccess.pdb
+/home/yasin/RiderProjects/FinalProject/DataAccess/bin/Debug/net6.0/Entities.dll
+/home/yasin/RiderProjects/FinalProject/DataAccess/bin/Debug/net6.0/Entities.pdb
+/home/yasin/RiderProjects/FinalProject/DataAccess/obj/Debug/net6.0/DataAccess.csproj.AssemblyReference.cache
+/home/yasin/RiderProjects/FinalProject/DataAccess/obj/Debug/net6.0/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/home/yasin/RiderProjects/FinalProject/DataAccess/obj/Debug/net6.0/DataAccess.AssemblyInfoInputs.cache
+/home/yasin/RiderProjects/FinalProject/DataAccess/obj/Debug/net6.0/DataAccess.AssemblyInfo.cs
+/home/yasin/RiderProjects/FinalProject/DataAccess/obj/Debug/net6.0/DataAccess.csproj.CoreCompileInputs.cache
+/home/yasin/RiderProjects/FinalProject/DataAccess/obj/Debug/net6.0/DataAccess.csproj.CopyComplete
+/home/yasin/RiderProjects/FinalProject/DataAccess/obj/Debug/net6.0/DataAccess.dll
+/home/yasin/RiderProjects/FinalProject/DataAccess/obj/Debug/net6.0/ref/DataAccess.dll
+/home/yasin/RiderProjects/FinalProject/DataAccess/obj/Debug/net6.0/DataAccess.pdb
