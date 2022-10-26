@@ -10,3 +10,5 @@
 /home/yasin/RiderProjects/FinalProject/Entities/obj/Debug/net6.0/Entities.dll
 /home/yasin/RiderProjects/FinalProject/Entities/obj/Debug/net6.0/ref/Entities.dll
 /home/yasin/RiderProjects/FinalProject/Entities/obj/Debug/net6.0/Entities.pdb
+/home/yasin/RiderProjects/FinalProject/Entities/bin/Debug/net6.0/Entities.runtimeconfig.json
+/home/yasin/RiderProjects/FinalProject/Entities/obj/Debug/net6.0/Entities.genruntimeconfig.cache

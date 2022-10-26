@@ -1,3 +1,4 @@
+using System.Linq.Expressions;
 using DataAccess.Abstract;
 using Entities.Concrete;
 
@@ -20,14 +21,10 @@ public class InMemoryProductDal: IProductDal
 
         };
     }
-    public List<Product> GetAll()
-    {
-        return _products;
-    }
 
-    public List<Product> GetAllByCategoryId(int categoryId)
+    public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)
     {
-        return _products.Where(s => s.CategoryId == categoryId).ToList();
+        throw new NotImplementedException();
     }
 
     public void Add(Product product)
@@ -51,6 +48,11 @@ public class InMemoryProductDal: IProductDal
     {
         var p = Find(product);
         if (p != null) _products.Remove(p);
+    }
+
+    public Product? FindById(int id)
+    {
+        throw new NotImplementedException();
     }
 
     public Product? Find(Product product)
