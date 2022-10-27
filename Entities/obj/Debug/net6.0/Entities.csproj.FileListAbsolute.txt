@@ -12,3 +12,6 @@
 /home/yasin/RiderProjects/FinalProject/Entities/obj/Debug/net6.0/Entities.pdb
 /home/yasin/RiderProjects/FinalProject/Entities/bin/Debug/net6.0/Entities.runtimeconfig.json
 /home/yasin/RiderProjects/FinalProject/Entities/obj/Debug/net6.0/Entities.genruntimeconfig.cache
+/home/yasin/RiderProjects/FinalProject/Entities/bin/Debug/net6.0/Core.dll
+/home/yasin/RiderProjects/FinalProject/Entities/bin/Debug/net6.0/Core.pdb
+/home/yasin/RiderProjects/FinalProject/Entities/obj/Debug/net6.0/Entities.csproj.CopyComplete

@@ -17,3 +17,5 @@
 /home/yasin/RiderProjects/FinalProject/Business/obj/Debug/net6.0/Business.pdb
 /home/yasin/RiderProjects/FinalProject/Business/bin/Debug/net6.0/Business.runtimeconfig.json
 /home/yasin/RiderProjects/FinalProject/Business/obj/Debug/net6.0/Business.genruntimeconfig.cache
+/home/yasin/RiderProjects/FinalProject/Business/bin/Debug/net6.0/Core.dll
+/home/yasin/RiderProjects/FinalProject/Business/bin/Debug/net6.0/Core.pdb

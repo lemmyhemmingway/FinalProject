@@ -89,6 +89,64 @@
         }
       }
     },
+    "/home/yasin/RiderProjects/FinalProject/Core/Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/yasin/RiderProjects/FinalProject/Core/Core.csproj",
+        "projectName": "Core",
+        "projectPath": "/home/yasin/RiderProjects/FinalProject/Core/Core.csproj",
+        "packagesPath": "/home/yasin/.nuget/packages/",
+        "outputPath": "/home/yasin/RiderProjects/FinalProject/Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/yasin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/yasin/RiderProjects/FinalProject/DataAccess/DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -111,6 +169,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "/home/yasin/RiderProjects/FinalProject/Core/Core.csproj": {
+                "projectPath": "/home/yasin/RiderProjects/FinalProject/Core/Core.csproj"
+              },
               "/home/yasin/RiderProjects/FinalProject/Entities/Entities.csproj": {
                 "projectPath": "/home/yasin/RiderProjects/FinalProject/Entities/Entities.csproj"
               }
@@ -192,7 +253,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/yasin/RiderProjects/FinalProject/Core/Core.csproj": {
+                "projectPath": "/home/yasin/RiderProjects/FinalProject/Core/Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

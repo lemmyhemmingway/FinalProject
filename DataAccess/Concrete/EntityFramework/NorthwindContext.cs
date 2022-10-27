@@ -10,7 +10,7 @@ public class NorthwindContext: DbContext
         optionsBuilder.UseNpgsql("Host=localhost;Database=yasin;Username=yasin;Password=1");
     }
 
-    public DbSet<Product> products { get; set; }
+    public DbSet<Product> Products { get; set; }
     public DbSet<Customer> Customers { get; set; }
     public DbSet<Category> Categories { get; set; }
 }

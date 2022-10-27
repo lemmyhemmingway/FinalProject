@@ -15,3 +15,5 @@
 /home/yasin/RiderProjects/FinalProject/DataAccess/obj/Debug/net6.0/DataAccess.pdb
 /home/yasin/RiderProjects/FinalProject/DataAccess/bin/Debug/net6.0/DataAccess.runtimeconfig.json
 /home/yasin/RiderProjects/FinalProject/DataAccess/obj/Debug/net6.0/DataAccess.genruntimeconfig.cache
+/home/yasin/RiderProjects/FinalProject/DataAccess/bin/Debug/net6.0/Core.dll
+/home/yasin/RiderProjects/FinalProject/DataAccess/bin/Debug/net6.0/Core.pdb
