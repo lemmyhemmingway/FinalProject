@@ -22,7 +22,3 @@ void NewFunction()
 
 
 var pm = new ProductManager(new EfProductDal());
-foreach (var p in pm.GetProductDetails())
-{
-    Console.WriteLine(p);
-}
