@@ -1,9 +1,15 @@
+using System.ComponentModel.DataAnnotations;
 using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.CrossCuttingConcerns.Validation;
+using Core.Utilities.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
+using FluentValidation;
+using ValidationException = System.ComponentModel.DataAnnotations.ValidationException;
 
 namespace Business.Concrete;
 
@@ -22,12 +28,9 @@ public class ProductManager : IProductService
     }
 
 
+    [ValidationAspect(typeof(ProductValidator))]
     public IResult Add(Product product)
     {
-        if (product.ProductName.Length < 2)
-        {
-            return new ErrorResult(Messages.ProductNameInvalid);
-        }
         _productDal.Add(product);
         return new SuccessResult(Messages.ProductAdded);
     }
