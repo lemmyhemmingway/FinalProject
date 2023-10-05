@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Utilities.Aspects.Autofac.Validation;
@@ -30,6 +31,7 @@ public class ProductManager : IProductService
     }
 
 
+    [SecuredOperation("product.add,admin")]
     [ValidationAspect(typeof(ProductValidator))]
     public IResult Add(Product product)
     {
