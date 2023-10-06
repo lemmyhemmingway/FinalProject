@@ -3,6 +3,9 @@ using Business.Abstract;
 using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Utilities.Aspects.Autofac.Caching;
+using Core.Utilities.Aspects.Autofac.Performance;
+using Core.Utilities.Aspects.Autofac.Transaction;
 using Core.Utilities.Aspects.Autofac.Validation;
 using Core.Utilities.Business;
 using Core.Utilities.Results;
@@ -25,6 +28,7 @@ public class ProductManager : IProductService
         _categoryService = categoryService;
     }
 
+    //[CacheAspect]
     public IDataResult<List<Product>> GetAll()
     {
         return new SuccessDataResult<List<Product>>(_productDal.GetAll());
@@ -33,6 +37,8 @@ public class ProductManager : IProductService
 
     [SecuredOperation("product.add,admin")]
     [ValidationAspect(typeof(ProductValidator))]
+    [CacheRemoveAspect("IProductService.Get")]
+    [TransactionScopeAspect]
     public IResult Add(Product product)
     {
         var result = BusinessRules.Run(CheckProductNameIsUnique(product.ProductName),

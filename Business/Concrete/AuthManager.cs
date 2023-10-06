@@ -57,7 +57,7 @@ public class AuthManager : IAuthService
     {
         if (_userService.GetByMail(email) != null)
         {
-            return new ErrorResult("User yoq");
+            return new ErrorResult("User var");
         }
 
         return new SuccessResult();
